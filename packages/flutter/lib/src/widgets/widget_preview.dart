@@ -15,13 +15,13 @@ import 'package:flutter/widgets.dart';
 /// @Preview()
 /// List<WidgetPreview> myFirstPreview() {
 ///   return <WidgetPreview>[
-///     WidgetPreview(
+///     const WidgetPreview(
 ///       name: 'Preview 1',
-///       child: const Text('Foo'),
+///       child: Text('Foo'),
 ///     ),
 ///     WidgetPreview(
 ///       name: 'Preview 2',
-///       child: MyWidget(),
+///       child: Text('Bar'),
 ///     ),
 ///   ];
 /// }
