@@ -20,7 +20,7 @@ List<Object?> _makeTestBuffer(int size) {
         3 => null,
         4 => <int>[1234],
         5 => <String, int>{'hello': 1234},
-        6 => 'this is a test',
+        6 => 'this is a simple text',
         7 => true,
         _ => Uint8List(64),
       },
